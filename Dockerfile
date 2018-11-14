@@ -88,7 +88,7 @@ COPY watchdog.sh /etc/service/watchdog/run
 
 VOLUME ["/opt/dnscrypt-wrapper/etc/keys"]
 
-EXPOSE 443/udp 443/tcp
+EXPOSE 4434/udp 4434/tcp
 
 CMD ["/sbin/start_runit"]
 
